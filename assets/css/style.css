@@ -8,12 +8,12 @@ header {
   background-image: url('../img/bg-portafolio.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: left;
-  padding-bottom: 50px;
+  padding-top: 700px;
 }
 
+
 nav{
-  background-color: #373a3C;
+  background-color: #000;
   color: #FFF;
 }
 
@@ -22,26 +22,31 @@ h1 {
   font-size: 40px;
   font-weight: 700;
   font-family: 'Roboto', sans-serif;
+  color: #000;
 }
 
 h2 {
-  font-size: 3em;
+  font-size: 2em;
   font-family: 'Roboto', sans-serif;
+  color: #000;
 }
 
 h3 {
   font-size: 20px;
   font-family: 'Roboto', sans-serif;
+  color: #000;
 }
 
 h4 {
   font-size: 30px;
   font-family: 'Roboto', sans-serif;
+  color: #000;
 }
 
 h5 {
   font-size: 20px;
   font-family: 'Roboto', sans-serif;
+  color: #000;
 }
 
 
@@ -61,14 +66,32 @@ ul {
   width: 20%
 
 }
-.newsletter{;
-  padding-bottom: 15rem;
-  padding-top: 10rem;
+
+.img-testimonio{
+  width: 300px;
+  height: auto;
 }
 
+.linea-titulos{
+  height: 5px;
+  background-color: #CFCFCF;
+}
+
+.texto-portada{
+  margin-bottom: 100px;
+}
 
 .carousel-indicators {
-  top: 200px;
+  top: 300px;
+}
+
+#puntos-testimonio{
+    top: 400px;
+
+}
+
+#clientesfelices{
+
 }
 
 .carousel-indicators li {
@@ -80,4 +103,8 @@ ul {
 
 #logo{
   width: 30px;
+}
+
+footer{
+  background-color: #000;
 }
